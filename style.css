@@ -1,5 +1,6 @@
   body {
-    background: rgb(178, 198, 190);
+    background: rgba(255,255,255,.85);
+   
   }
   
   
@@ -17,7 +18,7 @@
 
   #photo {
     padding: 20px;
-    background: rgba(255,255,255,.85);
+    background: rgb(122, 128, 138);;
     width: 252px;
     height: 300px;
     display: block;
@@ -36,4 +37,12 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  #moreFacts > div {
+    float: left;
+    background-color:  rgb(178, 198, 190);
+    text-align: center;
+    width: 33%;
+    font-size: x-large;
   }
